@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "MainLayout"
+    },
+    {
+      "index": true,
+      "dest": "HomePage"
+    },
+    {
+      "src": "/History",
+      "element": "History"
+    },
+    {
+      "src": "*",
+      "dest": "NotFoundPages"
+    }
+  ]
+}
