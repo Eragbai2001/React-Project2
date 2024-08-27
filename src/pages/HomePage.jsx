@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import Body from '../components/Body';
-import { TaskContext } from '../Context/TaskContext'; // Ensure this path is correct
+import React, { useContext } from "react";
+import Body from "../components/Body";
+import { TaskContext } from "../context/TaskContext"; // Ensure this path is correct
 
 const HomePage = () => {
   const { tasks, addTask, deleteTask } = useContext(TaskContext);

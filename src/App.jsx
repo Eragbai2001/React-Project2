@@ -9,7 +9,7 @@ import MainLayout from "./Layout/MainLayout";
 import HomePage from "./pages/HomePage";
 import History from "./pages/History";
 import NotFoundPages from "./pages/NotFoundPages";
-import TaskProvider from "../context/TaskContext"; // Ensure this path is correct
+import TaskProvider from "./context/TaskContext"; // Ensure this path is correct
 
 const App = () => {
   const router = createBrowserRouter(

@@ -6,7 +6,7 @@ import HistoryIcon from "../assets/images/history.png"; // Rename to avoid confl
 import { NavLink } from "react-router-dom";
 import ToDoForm from "./ToDoForm";
 import ToDo from "./ToDo";
-import { TaskContext } from "../Context/TaskContext"; // Ensure this path matches your directory structure
+import { TaskContext } from "../context/TaskContext"; // Ensure this path matches your directory structure
 function Body() {
   const { tasks, addTask, deleteTask } = useContext(TaskContext); // Using context
 
