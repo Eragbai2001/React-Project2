@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+.font-style1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* Use a valid weight value */
+  font-style: normal;
+}
+
+.font-style2 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* Use a valid weight value */
+  font-style: normal;
+}
+
+.todoform {
+  height: 5vh;
+  width: 100%;
+  padding-right: 50px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.todo-input {
+  outline: none;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  /* Adjust padding to make space for the button */
+  width: 500px;
+  border: 2px solid #BCBCBC;
+  border-radius: 40px;
+}
+
+.todo-btn {
+  position: sticky;
+  right: 0px;
+  /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.screen {
+  width: 500px;
+  border-radius: 20px;
+  /* Default width */
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .input-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 430px;
+  }
+  
+  
+  .screen {
+    width: 430px !important;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 639px) {
+  .screen {
+    width: 450px !important;
+    padding: 0 30px;
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 400px;
+  }
+
+  .screen {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 360px;
+  }
+
+  .screen {
+    width: 360px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 330px;
+  }
+
+  .screen {
+    width: 330px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 300px;
+  }
+
+  .screen {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .todo-input {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    /* Adjust padding to make space for the button */
+    width: 280px;
+  }
+
+  .screen {
+    width: 280px !important;
+  }
+}
+
+/* App.css */
+
+.todo-wrapper {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media (min-width: 639px) {
+  .todo-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: auto;
+  }
+}
+
+
+
+
+
+
+.rounded {
+  border-radius: 50px;
+}
